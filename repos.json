@@ -2,6 +2,7 @@
   "user": "OfekSagiv",
   "additionalRepos": [
     { "owner": "Locker-It", "repo": "Front" },
-    { "owner": "Locker-It", "repo": "Back" }
+    { "owner": "Locker-It", "repo": "Back" },
+    { "owner": "OptimaLPro", "repo": "HapoalimHakathon" }
   ]
 }
