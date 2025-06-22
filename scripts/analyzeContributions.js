@@ -47,7 +47,7 @@ function runGitLog(repoName, repoUrl) {
     execSync(`git clone --depth=100 ${repoUrl} ${cloneDir}`, { stdio: "ignore" });
 
     const output = execSync(
-      `cd ${cloneDir} && git log --author="${AUTHOR}" --pretty=tformat: --numstat | grep -E "\\.(js|jsx|ts|tsx)$" | awk '{a+=$1; d+=$2} END {printf "%d,%d", a, d}'`
+      `cd ${cloneDir} && git log --author="${AUTHOR}" --pretty=tformat: --numstat | grep -E "\\.(js|jsx|ts|tsx|java)$" | awk '{a+=$1; d+=$2} END {printf "%d,%d", a, d}'`
     )
       .toString()
       .trim();
