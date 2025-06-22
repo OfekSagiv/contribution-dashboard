@@ -1,0 +1,47 @@
+[
+  {
+    "repo": "book-management",
+    "added": 0,
+    "deleted": 0
+  },
+  {
+    "repo": "code-review-analyzer",
+    "added": 679,
+    "deleted": 2
+  },
+  {
+    "repo": "contribution-dashboard",
+    "added": 79,
+    "deleted": 0
+  },
+  {
+    "repo": "Countries",
+    "added": 400,
+    "deleted": 63
+  },
+  {
+    "repo": "Countries-React",
+    "added": 413,
+    "deleted": 147
+  },
+  {
+    "repo": "ofeksagiv",
+    "added": 0,
+    "deleted": 0
+  },
+  {
+    "repo": "portfolio-page-spa",
+    "added": 2625,
+    "deleted": 1530
+  },
+  {
+    "repo": "Front",
+    "added": 2168,
+    "deleted": 1124
+  },
+  {
+    "repo": "Back",
+    "added": 1657,
+    "deleted": 683
+  }
+]
