@@ -1,8 +1,8 @@
 [
   {
     "repo": "book-management",
-    "added": 0,
-    "deleted": 0
+    "added": 2677,
+    "deleted": 372
   },
   {
     "repo": "code-review-analyzer",
@@ -11,8 +11,8 @@
   },
   {
     "repo": "contribution-dashboard",
-    "added": 79,
-    "deleted": 0
+    "added": 80,
+    "deleted": 1
   },
   {
     "repo": "Countries",
