@@ -1,0 +1,7 @@
+{
+  "user": "OfekSagiv",
+  "additionalRepos": [
+    { "owner": "Locker-It", "repo": "Front" },
+    { "owner": "Locker-It", "repo": "Back" }
+  ]
+}
