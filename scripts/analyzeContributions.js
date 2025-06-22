@@ -6,6 +6,10 @@ const https = require("https");
 
 const CONFIG = JSON.parse(fs.readFileSync("repos.json", "utf-8"));
 const GH_TOKEN = process.env.GITHUB_TOKEN;
+if (!GH_TOKEN) {
+  console.error("❌ GITHUB_TOKEN not found. Did you set it in the workflow?");
+  process.exit(1);
+}
 const AUTHOR = CONFIG.user;
 
 function fetchReposFromUser(username) {
